@@ -1,0 +1,44 @@
+*
+*::before
+*::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins" , sans-serif;
+}
+
+body{
+}
+
+input,
+button{
+    border: none;
+}
+
+button{
+    font-weight: 400;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.SignIn-Btn{
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.Header-Wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+
+.Logo{
+    display: flex;
+}
+
+.Search-bar{
+    border: 1px; 
+    width: 280px 80px;
+}
