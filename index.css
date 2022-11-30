@@ -3,42 +3,159 @@
 *::after
 {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     font-family: "poppins" , sans-serif;
 }
 
 body{
-}
-
-input,
-button{
     border: none;
+    padding: 0;
+    text-align: left;
+    max-width: 100%;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.044);
 }
 
 button{
-    font-weight: 400;
-    white-space: nowrap;
-    cursor: pointer;
+    font-weight: 16px;
+    font-weight: bold;
+    border: 1px;
+    height: 20px;
+    margin-left: 8px;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
 }
 
-.SignIn-Btn{
-    font-size: 1rem;
-    border-radius: 5px;
-    padding: 8px 16px;
+.Explore-Button{
+    border: 1px solid black;
 }
-
 .Header-Wrapper{
     display: flex;
-    justify-content: center;
+    border: 1px;
+    height: 60px;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 
+.Image{
+    margin: 0 16%;
+    /* position: absolute; */
+}
+
+.image{
+    /* align-self: center; */
+    
+}
+
+img{
+    width: 1000px;
+    /* position: absolute; */
+}
+
+.Broad-Selection{
+    margin: 0 16%;
+}
+
+.Nav{
+    margin: 0 16%;
 }
 
 .Logo{
     display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.Udemy{
+    font-size: 24px;
+    margin-right: 32px;
+    align-self: center;
+}
+
+.Categories{
+    font-size: 12px;
+    margin-right: 8px;
+    align-self: center;
 }
 
 .Search-bar{
-    border: 1px; 
-    width: 280px 80px;
+    border: 1px solid rgba(0, 0, 0, 0.326); 
+    width: 784px;
+    height: 36px;
+    align-self: center;
+    border-radius: 64px;
+}
+
+.Nav-Links{
+    display: flex;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+.Links{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.Login-Buttons{
+    display: flex;
+    justify-self: center;
+}
+
+.Take{
+    width: 74%;
+}
+
+.Signup{
+    background-color: black;
+    color: white;
+    font-weight: normal;
+}
+
+.Webstore{
+    text-decoration: none;
+}
+
+.Learning{
+    z-index: 1;
+    align-self: center;
+    background-color: white;
+    border: 1px solid;
+    width: 270px;
+    padding: 0 16px;
+}
+
+.Courses{
+    display: flex;
+    list-style: none;
+}
+
+.Choose{
+    font-size: 18px;
+}
+li{
+    border: none;
+    margin-right: 8px;
+}
+
+.Expand{
+    margin: 0 8px;
+    border: 1px solid rgba(0, 0, 0, 0.229);
+    padding: 8px;
+    text-overflow: ellipsis;
+}
+
+.Python-Span{
+    display: flex;
+}
+
+span{
+    border: 1px rgba(0, 0, 0, 0.281);
+    margin:  0 8px;
+    padding: 0 8px;
+    width: auto;
+    height: auto;
+    justify-content: stretch;
 }
