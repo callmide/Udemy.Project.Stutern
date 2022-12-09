@@ -156,5 +156,12 @@ span{
     padding: 0 8px;
     width: auto;
     height: auto;
-    justify-content: stretch;
+    display: block;
 }
+
+.Image-Python img{
+    background-color: green;
+    /* height: 24%; */
+    width: 100%;
+}
+
